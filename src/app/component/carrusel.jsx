@@ -63,7 +63,7 @@ function Carrusel() {
 
   return (
     <div className="max-w-[400px] h-[350px] w-full m-auto  px-4 relative group">
-      <p className="text-center text-lg font-bold mb-4 text-slate-900">
+      <p className="text-center text-lg font-bold mb-4 text-yellow-600">
         Proximamente en la tienda
       </p>
       <div
@@ -71,21 +71,23 @@ function Carrusel() {
         className="w-full h-[350px] rounded-2xl bg-center bg-cover duration-500"
       ></div>
       {/* Left Arrow */}
-      <div className="hidden group-hover:block absolute top-[65%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[65%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 hover:bg-yellow-600">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
       {/* Right Arrow */}
-      <div className="hidden group-hover:block absolute top-[65%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[65%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 hover:bg-yellow-600">
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
       <div className="flex top-4 justify-center py-2">
-        {slides.map((slide, slideIndex) => (
+        {slides.map((_, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
-            <RxDotFilled />
+            <RxDotFilled
+              className={currentIndex === slideIndex ? "text-yellow-600" : ""}
+            />
           </div>
         ))}
       </div>
