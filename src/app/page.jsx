@@ -15,9 +15,9 @@ export default function Home() {
     <div>
       <NavBar />
       <Banner />
+      <Whychoose />
       <Surprise />
       <Carrusel />
-      <Whychoose />
       <Footer />
     </div>
   );
