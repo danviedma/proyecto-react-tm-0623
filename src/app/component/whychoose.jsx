@@ -10,62 +10,54 @@ function Whychoose() {
   return (
     <div className="w-[100%] m-auto pb-20 lg:w-[85vw]">
       <h2 className="p-10 text-center">
-        Why Choose{" "}
-        <span className="text-yellow-500">the Premium Bakery Quality</span>
+        ¿Por qué elegir{" "}
+        <span className="text-yellow-500">nuestro servicio Premium?</span>
       </h2>
       <div className="flex flex-col lg:flex-row">
         <div className="p-6">
           <Image src={img1}></Image>
           <p className="py-2 text-xl font-bold">
-            Discover new flavours & people
+            Nuevos <br />
+            autores
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            non aliquam unde nemo autem ullam illum repellendus facilis? Non
-            quaerat corrupti nihil? Consectetur numquam harum cumque ipsa ipsum
-            saepe libero.
+            Descubra nuevos autores en nuestra tienda. Estamos constantemente
+            trayendo nuevos libros.
           </p>
         </div>
         <div className="p-6">
           <Image src={img2}></Image>
           <p className="py-2 text-xl font-bold">
-            Buy <br></br> wholesale
+            Sin salir <br /> de casa
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            non aliquam unde nemo autem ullam illum repellendus facilis? Non
-            quaerat corrupti nihil? Consectetur numquam harum cumque ipsa ipsum
-            saepe libero.
+            Compre desde la comodidad de su casa, a través de nuestro Portal.
           </p>
         </div>
         <div className="p-6">
           <Image src={img3}></Image>
-          <p className="py-2 text-xl font-bold">Support your community</p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            non aliquam unde nemo autem ullam illum repellendus facilis? Non
-            quaerat corrupti nihil? Consectetur numquam harum cumque ipsa ipsum
-            saepe libero.
+          <p className="py-2 text-xl font-bold">
+            Nuestras <br /> editoriales
           </p>
+          <p>Trabajamos con las mejores editoriales del país.</p>
         </div>
         <div className="p-6">
           <Image src={img4}></Image>
-          <p className="py-2 text-xl font-bold">Enjoy the best quality</p>
+          <p className="py-2 text-xl font-bold">
+            Disfrute<br></br> la calidad
+          </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            non aliquam unde nemo autem ullam illum repellendus facilis? Non
-            quaerat corrupti nihil? Consectetur numquam harum cumque ipsa ipsum
-            saepe libero.
+            La calidad de nuestros libros es incomparable, no te arrepentirás.
           </p>
         </div>
         <div className="p-6">
           <Image src={img5}></Image>
-          <p className="py-2 text-xl font-bold">Enjoy Club Level Service</p>
+          <p className="py-2 text-xl font-bold">
+            Unase<br></br> a nuestro Club
+          </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            non aliquam unde nemo autem ullam illum repellendus facilis? Non
-            quaerat corrupti nihil? Consectetur numquam harum cumque ipsa ipsum
-            saepe libero.
+            Forma parte de nuestro club y conoce personas con intereses
+            parecidos a los tuyos.
           </p>
         </div>
       </div>
