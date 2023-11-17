@@ -6,9 +6,9 @@ import Carrusel from "./component/carrusel";
 import Footer from "./component/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./component/navbar";
-import Banner from "./component/Banner";
-import Surprise from "./component/Surprise";
-import Whychoose from "./component/Whychoose";
+import Banner from "./component/banner";
+import Surprise from "./component/surprise";
+import Whychoose from "./component/whychoose";
 import Ourpartner from "./component/ourpartner";
 import Whomakes from "./component/whomakes";
 
