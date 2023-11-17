@@ -62,8 +62,8 @@ function Carrusel() {
   }, [currentIndex, slides]);
 
   return (
-    <div className="max-w-[400px] h-[350px] w-full m-auto  px-4 relative group">
-      <p className="text-center text-lg font-bold mb-4 text-yellow-600">
+    <div className="max-w-[400px] h-[350px] w-full m-auto  px-4 relative group ">
+      <p className="text-center text-lg font-bold mb-4 text-yellow-500">
         Proximamente en la tienda
       </p>
       <div

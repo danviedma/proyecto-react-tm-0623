@@ -77,7 +77,7 @@ const sections = [
 const Footer = () => {
   return (
     <div
-      className="w-full mt-20 text-yellow-600  px-2 bg-cover bg-center"
+      className="w-full mt-20 text-yellow-500  px-2 bg-cover bg-center"
       style={{
         backgroundImage:
           "url('https://t4.ftcdn.net/jpg/03/78/60/17/360_F_378601778_juFD8HF4e0r0og5GCZWQBJwYJZLj5z8e.jpg')",
@@ -98,7 +98,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <link.icon className="hover:text-yellow-600 mt-2 " />
+                        <link.icon className="hover:text-yellow-500 mt-2 " />
                       </a>
                     </li>
                   ))}

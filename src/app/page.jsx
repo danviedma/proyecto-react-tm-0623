@@ -9,6 +9,8 @@ import NavBar from "./component/navbar";
 import Banner from "./component/Banner";
 import Surprise from "./component/Surprise";
 import Whychoose from "./component/Whychoose";
+import Ourpartner from "./component/ourpartner";
+import Whomakes from "./component/whomakes";
 
 export default function Home() {
   return (
@@ -16,7 +18,10 @@ export default function Home() {
       <NavBar />
       <Banner />
       <Whychoose />
+      <Whomakes />
+      <Ourpartner />
       <Surprise />
+      <br />
       <Carrusel />
       <Footer />
     </div>
