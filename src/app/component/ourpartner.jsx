@@ -3,7 +3,7 @@ import React from "react";
 function Ourpartner() {
   return (
     <div
-      className="bg-cover bg-center mb-5 "
+      className="bg-cover bg-center mb-5  "
       style={{
         backgroundImage:
           "url('https://alberdisa.vteximg.com.br/arquivos/ids/167873/Fiambres%20y%20Embutidos.png?v=637654937046300000')",
@@ -25,9 +25,9 @@ function Ourpartner() {
         <a
           href="https://www.instagram.com/ellmandamas/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="el mandamas"
         >
-          <button className="text-white bg-yellow-600 py-2 px-4 rounded hover:bg-blue-500">
+          <button className="text-white bg-yellow-600 py-2 px-4 rounded animate-shake hover:bg-blue-500  animate-bounce ">
             Obtenga más información
           </button>
         </a>

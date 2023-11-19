@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
+
 const sections = [
   {
     title: "Equipo",
@@ -54,22 +55,6 @@ const sections = [
           },
         ],
       },
-      {
-        name: "Edgar Scaltritti",
-        role: "Programador",
-        links: [
-          {
-            name: "GitHub",
-            icon: FaGithub,
-            link: "https://github.com/TuUsuarioDeGitHub",
-          },
-          {
-            name: "LinkedIn",
-            icon: FaLinkedin,
-            link: "https://www.linkedin.com/in/tu-usuario-linkedin/",
-          },
-        ],
-      },
     ],
   },
 ];
@@ -77,6 +62,7 @@ const sections = [
 const Footer = () => {
   return (
     <div
+      
       className="w-full mt-20 text-yellow-500  px-2 bg-cover bg-center"
       style={{
         backgroundImage:
@@ -117,6 +103,7 @@ const Footer = () => {
           2023 Nuestro proyecto React
         </p>
       </div>
+      
     </div>
   );
 };

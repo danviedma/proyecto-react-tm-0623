@@ -7,7 +7,7 @@ import libro from "@/app/asset/img/libro.jpg";
 function Surprise() {
   return (
     <div className="w-[100%] m-auto lg:flex lg:w-[85vw]">
-      <Image src={libro} width={600} className="lg:w-[40vw]"></Image>
+      <Image src={libro} width={600} className="lg:w-[40vw] "></Image>
       <div className="w-[100%] mt-10 pl-6 lg:w-[50vw]">
         <h3 className="text-yellow-500">Sorprender a alguien</h3>
         <h3>Regala un libro</h3>

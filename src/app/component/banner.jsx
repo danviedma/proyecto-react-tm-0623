@@ -13,7 +13,8 @@ function Banner() {
         <p className="text-xl text-black">
           Descubra nuestros textos y sus historias
         </p>
-        <button className="p-2 text-white bg-yellow-500 rounded-md w-[10rem] border-1">
+
+        <button className="p-2 text-white bg-yellow-500 rounded-md w-[10rem] border-1 ">
           Nuestra tienda
         </button>
       </div>
