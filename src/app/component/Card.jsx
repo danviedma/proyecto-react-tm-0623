@@ -22,7 +22,7 @@ function Card({ list, addToCart }) {
             onClick={() => addToCart(tarjeta)}
             className="flex justify-center w-40 p-3 mb-2 text-center text-white bg-yellow-500 border-2 rounded-xl h-30 hover:bg-yellow-700"
           >
-            Comprar
+            Agregar al Carro
           </button>
         </div>
       ))}
