@@ -12,8 +12,17 @@ export const CardProvider = ({ children }) => {
     setCartItems([...cartItems, product]);
   };
 
+  const getTotalPrice = () => {
+    return cartItems.reduce((total, item) => total + item.price, 0);
+  };
+
+  const clearCart = () => {
+    setCartItems([]);
+  };
   return (
-    <CardContext.Provider value={{ cartItems, addToCart }}>
+    <CardContext.Provider
+      value={{ cartItems, addToCart, getTotalPrice, clearCart }}
+    >
       {children}
     </CardContext.Provider>
   );

@@ -4,7 +4,7 @@ export const galeryList = [
     title: "House of Flame and Shadow",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/91jbHTNpy6L._AC_UL381_SR381,381_.jpg",
-    price: "$7600",
+    price: 6200,
     author: "Sarah J. Maas",
   },
   {
@@ -12,7 +12,7 @@ export const galeryList = [
     title: "Iron Flame",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL254_SR254,254_.jpg",
-    price: "$8200",
+    price: 8200,
     author: "Rebeca Yarros",
   },
   {
@@ -20,7 +20,7 @@ export const galeryList = [
     title: "My Name is Barbara",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81KuLAC1XdL._AC_UL254_SR254,254_.jpg",
-    price: "$9100",
+    price: 7300,
     author: "Barbara Streisand",
   },
   {
@@ -28,7 +28,7 @@ export const galeryList = [
     title: "The Psychology of Money",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/71TRUbzcvaL._AC_UL381_SR381,381_.jpg",
-    price: "$7200",
+    price: 8200,
     author: "Morgan House",
   },
   {
@@ -36,7 +36,7 @@ export const galeryList = [
     title: "Fourth Wing",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/91n7p-j5aqL._AC_UL127_SR127,127_.jpg",
-    price: "$8100",
+    price: 6500,
     author: "Rebeca Yarros",
   },
   {
@@ -44,7 +44,7 @@ export const galeryList = [
     title: "The Housemand",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81AHTyq2wVL._AC_UL254_SR254,254_.jpg",
-    price: "$7800",
+    price: 9000,
     author: "Freida Mc Faden",
   },
   {
@@ -52,7 +52,7 @@ export const galeryList = [
     title: "Lessons in Chemistry",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/71yNgTMEcpL._AC_UL254_SR254,254_.jpg",
-    price: "$6500",
+    price: 8700,
     author: "Bonnie Garms",
   },
   {
@@ -60,7 +60,7 @@ export const galeryList = [
     title: "Killers of the Flower Moon",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81Xy1ugiWeL._AC_UL381_SR381,381_.jpg",
-    price: "$8100",
+    price: 6300,
     author: "David Grann",
   },
   {
@@ -68,7 +68,7 @@ export const galeryList = [
     title: "Prequel",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/91Ldk5Qz9sL._AC_UL381_SR381,381_.jpg",
-    price: "$7600",
+    price: 8200,
     author: "Rachel Maddow",
   },
   {
@@ -76,7 +76,7 @@ export const galeryList = [
     title: "A Count of Thorns and Roses",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/8180Uhc4BuL._AC_UL381_SR381,381_.jpg",
-    price: "$8200",
+    price: 7500,
     author: "Sarah J. Maas",
   },
   {
@@ -84,7 +84,7 @@ export const galeryList = [
     title: "If It Bleeds",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81offywaW+L._AC_UL160_SR160,160_.jpg",
-    price: "$6500",
+    price: 6300,
     author: "Stephen King",
   },
   {
@@ -92,7 +92,7 @@ export const galeryList = [
     title: "Blaze",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81sB0YiSCpL._AC_UL160_SR160,160_.jpg",
-    price: "$7200",
+    price: 8100,
     author: "Stephen King",
   },
   {
@@ -100,7 +100,7 @@ export const galeryList = [
     title: "Sisters Creek",
     image:
       "https://m.media-amazon.com/images/I/812gMq1f3HL._AC_SR405%2C405_.jpg",
-    price: "$8100",
+    price: 7200,
     author: "Lee Anderson",
   },
   {
@@ -108,7 +108,7 @@ export const galeryList = [
     title: "Hounting Charlie",
     image:
       "https://m.media-amazon.com/images/I/918q1-QVXML._AC_SR405%2C405_.jpg",
-    price: "$7200",
+    price: 6300,
     author: "Wendy Wang",
   },
   {
@@ -116,7 +116,7 @@ export const galeryList = [
     title: "Bright Young Women",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/71i+X7DvZPL._AC_UL160_SR160,160_.jpg",
-    price: "$8200",
+    price: 8300,
     author: "Jessica Knoll",
   },
 ];

@@ -1,5 +1,6 @@
 import React from "react";
 import BotonPago from "./BotonPago";
+import { CardProvider } from "./CardContext";
 
 function Card({ list, addToCart }) {
   return (
@@ -16,7 +17,7 @@ function Card({ list, addToCart }) {
           />
           <p className="mt-3 font-bold text-yellow-700">{tarjeta.title}</p>
           <p>{tarjeta.author}</p>
-          <p className="text-lg font-bold text-yellow-700">{tarjeta.price}</p>
+          <p className="text-lg font-bold text-yellow-700">${tarjeta.price}</p>
           <button
             onClick={() => addToCart(tarjeta)}
             className="flex justify-center w-40 p-3 mb-2 text-center text-white bg-yellow-500 border-2 rounded-xl h-30 hover:bg-yellow-700"
