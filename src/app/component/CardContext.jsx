@@ -19,9 +19,14 @@ export const CardProvider = ({ children }) => {
   const clearCart = () => {
     setCartItems([]);
   };
+
+  const removeFromCart = (productId) => {
+    const updatedCart = cartItems.filter((item) => item.id !== productId);
+    setCartItems(updatedCart);
+  };
   return (
     <CardContext.Provider
-      value={{ cartItems, addToCart, getTotalPrice, clearCart }}
+      value={{ cartItems, addToCart, getTotalPrice, clearCart, removeFromCart }}
     >
       {children}
     </CardContext.Provider>

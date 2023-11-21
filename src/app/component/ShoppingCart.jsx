@@ -3,10 +3,11 @@ import { useCardContext } from "./CardContext";
 import CartTable from "./CartTable";
 
 const ShoppingCart = () => {
-  const { cartItems, getTotalPrice, clearCart } = useCardContext();
+  const { cartItems, getTotalPrice, clearCart, removeFromCart } =
+    useCardContext();
 
   const handleRemoveProduct = (productId) => {
-    //logica para eliminar un libro del carrito
+    removeFromCart(productId);
   };
 
   return (
