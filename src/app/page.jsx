@@ -21,7 +21,7 @@ export default function Home() {
       <Whomakes />
       <Ourpartner />
       <Surprise />
-      <br />
+      <Cards />
       <Carrusel />
       <Footer />
     </div>

@@ -12,7 +12,12 @@ export default function RootLayout({ children }) {
   return (
     <CardProvider>
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+
+        <Barra />
+      <Navbar />
+      
+          {children}</body>
       </html>
     </CardProvider>
   );
