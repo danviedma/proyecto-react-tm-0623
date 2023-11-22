@@ -9,6 +9,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { CardProvider, useCardContext } from "../component/CardContext";
 import Card from "../component/Card";
+import CartIcon from "../component/CartIcon";
 import ShoppingCart from "../component/ShoppingCart";
 
 export default function GaleryPage() {
@@ -21,9 +22,7 @@ export default function GaleryPage() {
   return (
     <div className="w-4/5 mx-auto">
       <Encabezado />
-      <Link href="./carrito" className="font-bold text-yellow-700">
-        Carrito
-      </Link>
+
       <CardProvider>
         <Card list={galeryList} addToCart={addToCart} />
       </CardProvider>
