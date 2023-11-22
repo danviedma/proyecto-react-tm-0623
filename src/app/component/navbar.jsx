@@ -16,7 +16,7 @@ const Navbar = () => {
             Inicio </Link>
         </div>
         <div className="ml-4">
-          <Link href="/Servicios" className="text-white hover:text-gray-400 text-2xl border-b-1">
+          <Link href="/Galería" className="text-white hover:text-gray-400 text-2xl border-b-1">
           Servicios </Link>
         </div>
         <div className="ml-4">
