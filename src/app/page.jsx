@@ -15,6 +15,7 @@ import Whomakes from "./component/whomakes";
 export default function Home() {
   return (
     <div>
+      <Barra />
       <NavBar />
       <Banner />
       <Whychoose />
