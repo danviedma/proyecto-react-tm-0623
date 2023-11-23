@@ -1,20 +1,14 @@
 import React from "react";
 
-import Image from "next/image";
-
-import imgservicios from "@/app/asset/img/servicios.jpg";
+import Link from "next/link";
 
 
 function Galería () {
 
     return (
-        
-        <div className="flex justify-center items-center">
-           <p>Galería</p>
-        </div>
 
+        <Link href="/galeria">Galería</Link>
     )
-
 }
 
 export default Galería

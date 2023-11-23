@@ -16,8 +16,8 @@ const Navbar = () => {
             Inicio </Link>
         </div>
         <div className="ml-4">
-          <Link href="/Galería" className="text-white hover:text-gray-400 text-2xl border-b-1">
-          Servicios </Link>
+          <Link href="/galeria" className="text-white hover:text-gray-400 text-2xl border-b-1">
+          Galería </Link>
         </div>
         <div className="ml-4">
           <Link href="/Contacto" className="text-white hover:text-gray-400 text-2xl border-b-1">

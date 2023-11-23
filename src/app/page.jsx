@@ -2,10 +2,12 @@
 
 import Image from "next/image";
 import "./globals.css";
+import Barra from "./component/Barra";
+import Cards from "./component/Cards";
 import Carrusel from "./component/carrusel";
 import Footer from "./component/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./component/navbar";
+import NavBar from "./component/Navbar";
 import Banner from "./component/banner";
 import Surprise from "./component/surprise";
 import Whychoose from "./component/whychoose";
@@ -16,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Barra />
-      <NavBar />
+     <NavBar />  
       <Banner />
       <Whychoose />
       <Whomakes />
