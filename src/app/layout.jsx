@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { CardProvider } from "./component/CardContext";
-import Barra from "./component/Barra"
-import Navbar from "./component/Navbar"
+import Barra from "./component/Barra";
+import Navbar from "./component/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +16,12 @@ export default function RootLayout({ children }) {
     <CardProvider>
       <html lang="en">
         <body className={inter.className}>
+          <Barra />
 
-      <Barra /> 
+          <Navbar />
 
-  <Navbar />  
-      
-          {children}</body>
+          {children}
+        </body>
       </html>
     </CardProvider>
   );
