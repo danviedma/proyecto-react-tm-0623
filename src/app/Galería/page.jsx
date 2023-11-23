@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 
 import Link from "next/link";
 
@@ -11,4 +11,4 @@ function Galería () {
     )
 }
 
-export default Galería
+export default Galería 

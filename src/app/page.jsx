@@ -3,6 +3,7 @@
 import Image from "next/image";
 import "./globals.css";
 import Barra from "./component/Barra";
+import Navbar from "./component/Navbar";
 import Cards from "./component/Cards";
 import Carrusel from "./component/carrusel";
 import Footer from "./component/footer";
@@ -17,8 +18,7 @@ import Whomakes from "./component/whomakes";
 export default function Home() {
   return (
     <div>
-      <Barra />
-     <NavBar />  
+    
       <Banner />
       <Whychoose />
       <Whomakes />
