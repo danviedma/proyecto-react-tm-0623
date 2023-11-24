@@ -5,6 +5,7 @@ import Image from "next/image";
 import imgbanner from "@/app/asset/img/banner.jpg";
 
 import Link from "next/link";
+import CartIcon from "./CartIcon";
 
 function Banner() {
   return (

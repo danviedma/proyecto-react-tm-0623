@@ -1,11 +1,12 @@
 import React from "react";
+import CartIcon from "./CartIcon";
 
 function Barra() {
   return (
     <section>
-      <div className="w-full h-16 bg-green-300 flex justify-between items-center">
-       <div></div>
-        <p className="text-black pt-3 ">
+      <div className="flex items-center justify-between w-full h-16 bg-green-300">
+        <div></div>
+        <p className="pt-3 text-black ">
           Entrega gratuita a partir de $10.000. Recibes un regalo con una compra
           superior a $15.000.-
         </p>
@@ -17,7 +18,6 @@ function Barra() {
           strokeWidth={1.5}
           stroke="currentColor"
           className="w-6 h-6 mr-3"
-
         >
           <path
             strokeLinecap="round"

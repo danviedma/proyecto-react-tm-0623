@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 import libro from "@/app/asset/img/libro.jpg";
+import CartIcon from "./CartIcon";
 
 function Surprise() {
   return (
