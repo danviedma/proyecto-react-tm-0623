@@ -2,121 +2,134 @@ export const galeryList = [
   {
     id: "1",
     title: "House of Flame and Shadow",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/91jbHTNpy6L._AC_UL381_SR381,381_.jpg",
+    image: "https://m.media-amazon.com/images/I/91JjndepsqL._AC_UY218_.jpg",
     price: 6200,
     author: "Sarah J. Maas",
   },
   {
     id: "2",
     title: "Iron Flame",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL254_SR254,254_.jpg",
+    image: "https://m.media-amazon.com/images/I/91KNqG-9GJL._AC_UY218_.jpg",
     price: 8200,
     author: "Rebeca Yarros",
   },
   {
     id: "3",
     title: "My Name is Barbara",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/81KuLAC1XdL._AC_UL254_SR254,254_.jpg",
+    image: "https://m.media-amazon.com/images/I/71musw9bJWL._AC_UY218_.jpg",
     price: 7300,
     author: "Barbara Streisand",
   },
   {
     id: "4",
     title: "The Psychology of Money",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/71TRUbzcvaL._AC_UL381_SR381,381_.jpg",
+    image: "https://m.media-amazon.com/images/I/71TRUbzcvaL._AC_UY218_.jpg",
     price: 8200,
     author: "Morgan House",
   },
   {
     id: "5",
     title: "Fourth Wing",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/91n7p-j5aqL._AC_UL127_SR127,127_.jpg",
+    image: "https://m.media-amazon.com/images/I/916yn8j199L._AC_UY218_.jpg",
     price: 6500,
     author: "Rebeca Yarros",
   },
   {
     id: "6",
-    title: "The Housemand",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/81AHTyq2wVL._AC_UL254_SR254,254_.jpg",
+    title: "Bright YOUNG WOMAN",
+    image: "https://m.media-amazon.com/images/I/715kbr8ZTbL._AC_UY218_.jpg",
     price: 9000,
     author: "Freida Mc Faden",
   },
   {
     id: "7",
     title: "Lessons in Chemistry",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/71yNgTMEcpL._AC_UL254_SR254,254_.jpg",
+    image: "https://m.media-amazon.com/images/I/71LhoJDfaTL._AC_UY218_.jpg",
     price: 8700,
     author: "Bonnie Garms",
   },
   {
     id: "8",
-    title: "Killers of the Flower Moon",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/81Xy1ugiWeL._AC_UL381_SR381,381_.jpg",
+    title: "La hipotesis del amor",
+    image: "https://m.media-amazon.com/images/I/61b9eQCzb+L._AC_UY218_.jpg",
     price: 6300,
-    author: "David Grann",
+    author: "Ali Hazelwood",
   },
   {
     id: "9",
     title: "Prequel",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/91Ldk5Qz9sL._AC_UL381_SR381,381_.jpg",
+    image: "https://m.media-amazon.com/images/I/91yhR+JP5RL._AC_UY218_.jpg",
     price: 8200,
     author: "Rachel Maddow",
   },
   {
     id: "10",
-    title: "A Count of Thorns and Roses",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/8180Uhc4BuL._AC_UL381_SR381,381_.jpg",
+    title: "If It Bleeds",
+    image: "https://m.media-amazon.com/images/I/61WmEVBdWAL._AC_UY218_.jpg",
     price: 7500,
     author: "Sarah J. Maas",
   },
   {
     id: "11",
     title: "If It Bleeds",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/81offywaW+L._AC_UL160_SR160,160_.jpg",
+    image: "https://m.media-amazon.com/images/I/81yQo6uoLPL._AC_UY218_.jpg",
     price: 6300,
     author: "Stephen King",
   },
   {
     id: "12",
     title: "Blaze",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/81sB0YiSCpL._AC_UL160_SR160,160_.jpg",
+    image: "https://m.media-amazon.com/images/I/71o29imQpCL._AC_UY218_.jpg",
     price: 8100,
     author: "Stephen King",
   },
   {
     id: "13",
     title: "Sisters Creek",
-    image:
-      "https://m.media-amazon.com/images/I/812gMq1f3HL._AC_SR405%2C405_.jpg",
+    image: "https://m.media-amazon.com/images/I/812gMq1f3HL._AC_UY218_.jpg",
     price: 7200,
     author: "Lee Anderson",
   },
   {
     id: "14",
-    title: "Hounting Charlie",
-    image:
-      "https://m.media-amazon.com/images/I/918q1-QVXML._AC_SR405%2C405_.jpg",
+    title: "Twice a Bridge",
+    image: "https://m.media-amazon.com/images/I/61yDh-RzKAL._AC_UY218_.jpg",
     price: 6300,
-    author: "Wendy Wang",
+    author: "Mona Hodson",
   },
   {
     id: "15",
     title: "Bright Young Women",
-    image:
-      "https://images-na.ssl-images-amazon.com/images/I/71i+X7DvZPL._AC_UL160_SR160,160_.jpg",
+    image: "https://m.media-amazon.com/images/I/71loRRZzhqL._AC_UY218_.jpg",
     price: 8300,
     author: "Jessica Knoll",
+  },
+  {
+    id: "16",
+    title: "Ensayo sobre la ceguera",
+    image: "https://m.media-amazon.com/images/I/410xJ3e-3aL._AC_UY218_.jpg",
+    price: 599.99,
+    author: "Jose Saramago",
+  },
+  {
+    id: "17",
+    title: "La armadura de la luz",
+    image: "https://m.media-amazon.com/images/I/91UW8ps9opL._AC_UY218_.jpg",
+    price: 799.99,
+    author: "Ken Follet",
+  },
+  {
+    id: "18",
+    title: "La biblioteca de fuego",
+    image: "https://m.media-amazon.com/images/I/914YfLalvQL._AC_UY218_.jpg",
+    price: 899.99,
+    author: "Maria Zaragoza",
+  },
+  {
+    id: "19",
+    title: "La sombra del viento",
+    image: "https://m.media-amazon.com/images/I/61zOWUcvMbL._AC_UY218_.jpg",
+    price: 1099.99,
+    author: "Carlos Ruiz",
   },
 ];
