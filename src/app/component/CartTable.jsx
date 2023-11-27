@@ -8,6 +8,7 @@ const CartTable = ({ products, onRemoveProduct }) => {
           <th className="py-2 pl-0 text-left border-b"></th>
           <th className="py-2 pl-0 text-left border-b">Título</th>
           <th className="py-2 pr-4 text-left border-b">Precio</th>
+          <th className="py-2 pr-4 text-left border-b">Cantidad</th>
         </tr>
       </thead>
       <tbody>
@@ -25,6 +26,9 @@ const CartTable = ({ products, onRemoveProduct }) => {
             </td>
             <td className="py-2 font-bold text-left border-b">
               ${product.price}
+            </td>
+            <td className="py-2 font-bold text-left border-b">
+              {product.quantity}
             </td>
             <td className="py-2 border-b">
               <button

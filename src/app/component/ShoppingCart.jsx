@@ -11,6 +11,7 @@ const ShoppingCart = () => {
   const handleRemoveProduct = (productId) => {
     removeFromCart(productId);
   };
+
   const handleConfirmPurchase = () => {
     Swal.fire({
       position: "center",
@@ -44,7 +45,7 @@ const ShoppingCart = () => {
             </button>
             <button
               onClick={handleConfirmPurchase}
-              className="flex justify-center w-40 p-3 mt-10 text-center text-white bg-green-500 border-2  rounded-xl h-30 hover:scale-110"
+              className="flex justify-center w-40 p-3 mt-10 text-center text-white bg-green-500 border-2 rounded-xl h-30 hover:scale-110"
             >
               Confirmar Compra
             </button>

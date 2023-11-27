@@ -1,12 +1,13 @@
 // components/CartIcon.js
+"use client";
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { useCardContext } from "./CardContext";
 
 const CartIcon = () => {
-  const { cartItems } = useCardContext();
+  const { getTotalQuantity } = useCardContext();
 
-  const totalItems = cartItems.length;
+  const totalItems = getTotalQuantity();
 
   return (
     <div className="relative">
