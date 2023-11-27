@@ -1,6 +1,5 @@
-// components/CardContext.js
-
 "use client";
+
 import React, { createContext, useContext, useState } from "react";
 
 const CardContext = createContext();
@@ -9,11 +8,32 @@ export const CardProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
+    const existingProduct = cartItems.find((item) => item.id === product.id);
+
+    if (existingProduct) {
+      // Si el producto ya está en el carrito, actualiza la cantidad
+      setCartItems((prevCart) =>
+        prevCart.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        )
+      );
+    } else {
+      // Si el producto no está en el carrito, agrégalo con cantidad 1
+      setCartItems((prevCart) => [...prevCart, { ...product, quantity: 1 }]);
+    }
+  };
+
+  const getTotalQuantity = () => {
+    return cartItems.reduce((total, item) => total + item.quantity, 0);
   };
 
   const getTotalPrice = () => {
-    return cartItems.reduce((total, item) => total + item.price, 0);
+    return cartItems.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
   };
 
   const clearCart = () => {
@@ -24,9 +44,17 @@ export const CardProvider = ({ children }) => {
     const updatedCart = cartItems.filter((item) => item.id !== productId);
     setCartItems(updatedCart);
   };
+
   return (
     <CardContext.Provider
-      value={{ cartItems, addToCart, getTotalPrice, clearCart, removeFromCart }}
+      value={{
+        cartItems,
+        addToCart,
+        getTotalQuantity,
+        getTotalPrice,
+        clearCart,
+        removeFromCart,
+      }}
     >
       {children}
     </CardContext.Provider>
