@@ -1,8 +1,10 @@
 import React from "react";
+import EliminarBarra from "./EliminarBarra";
+import ocultarBarraSuperior from "./EliminarBarra";
 
 function Barra() {
   return (
-    <section>
+    <section style= {{display: ocultarBarraSuperior ? 'none' : 'null'}}>
       <div className="w-full h-16 bg-green-300 flex justify-between items-center">
        <div></div>
         <p className="text-black pt-3 ">
@@ -26,8 +28,13 @@ function Barra() {
           />
         </svg>
       </div>
+
+      <EliminarBarra />
+
+      
     </section>
   );
 }
 
-export default Barra;
+      export default Barra;
+
