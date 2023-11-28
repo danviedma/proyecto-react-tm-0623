@@ -8,21 +8,37 @@ export const CardProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
-    const existingProduct = cartItems.find((item) => item.id === product.id);
+    const existingProductIndex = cartItems.findIndex(
+      (item) => item.id === product.id
+    );
 
-    if (existingProduct) {
-      // Si el producto ya está en el carrito, actualiza la cantidad
+    if (existingProductIndex !== -1) {
       setCartItems((prevCart) =>
-        prevCart.map((item) =>
-          item.id === product.id
+        prevCart.map((item, index) =>
+          index === existingProductIndex
             ? { ...item, quantity: item.quantity + 1 }
             : item
         )
       );
     } else {
-      // Si el producto no está en el carrito, agrégalo con cantidad 1
       setCartItems((prevCart) => [...prevCart, { ...product, quantity: 1 }]);
     }
+  };
+
+  const removeFromCart = (productId) => {
+    setCartItems((prevCart) =>
+      prevCart.reduce((acc, item) => {
+        if (item.id === productId) {
+          if (item.quantity > 1) {
+            acc.push({ ...item, quantity: item.quantity - 1 });
+          }
+          // si la cantidad es 1, no lo agregamos de nuevo
+        } else {
+          acc.push(item);
+        }
+        return acc;
+      }, [])
+    );
   };
 
   const getTotalQuantity = () => {
@@ -40,20 +56,15 @@ export const CardProvider = ({ children }) => {
     setCartItems([]);
   };
 
-  const removeFromCart = (productId) => {
-    const updatedCart = cartItems.filter((item) => item.id !== productId);
-    setCartItems(updatedCart);
-  };
-
   return (
     <CardContext.Provider
       value={{
         cartItems,
         addToCart,
+        removeFromCart,
         getTotalQuantity,
         getTotalPrice,
         clearCart,
-        removeFromCart,
       }}
     >
       {children}
