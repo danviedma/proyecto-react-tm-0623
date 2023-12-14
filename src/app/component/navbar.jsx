@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between bg-red-800 p-4 lg:bg-blue-600 w-full">
+      <nav className="flex items-center justify-between bg-blue-600 p-4 lg:bg-blue-600 w-full">
         
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center">
