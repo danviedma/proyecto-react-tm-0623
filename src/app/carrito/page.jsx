@@ -1,13 +1,14 @@
 "use client";
 
-import { CardProvider, useCardContext } from "../component/CardContext";
 import ShoppingCart from "../component/ShoppingCart";
+import Navbar from "../component/navbar";
 
 const OtraPagina = () => {
   // const cartItems = useCardContext();
 
   return (
     <div>
+      <Navbar />
       {/* <CardProvider>
         <div>
           <h2>Carrito</h2>

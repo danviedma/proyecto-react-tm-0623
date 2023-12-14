@@ -10,7 +10,7 @@ import Link from "next/link";
 import { CardProvider, useCardContext } from "../component/CardContext";
 import Card from "../component/Card";
 import CartIcon from "../component/CartIcon";
-import ShoppingCart from "../component/ShoppingCart";
+import Navbar from "../component/navbar";
 
 export default function GaleryPage() {
   // const [cartItems, setCartItems] = useState([]);
@@ -20,14 +20,14 @@ export default function GaleryPage() {
   // };
   const { cartItems, addToCart } = useCardContext();
   return (
-    <div className="w-4/5 mx-auto">
-      <Encabezado />
-
-      <CardProvider>
-        <Card list={galeryList} addToCart={addToCart} />
-      </CardProvider>
-
-      <Footer />
+    <div className="w-[100%] mx-auto">
+      <Navbar />
+      <div className="w-[80%] mx-auto">
+        <CardProvider>
+          <Card list={galeryList} addToCart={addToCart} />
+        </CardProvider>
+        <Footer />
+      </div>
     </div>
   );
 }
