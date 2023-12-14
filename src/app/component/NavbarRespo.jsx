@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { useState } from "react";
 
-const Navbar = () => {
+const NavbarRespo = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -192,4 +192,4 @@ const Navbar = () => {
     </>
   );
 };
-export default Navbar;
+export default NavbarRespo;
