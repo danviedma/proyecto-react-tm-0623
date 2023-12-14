@@ -1,14 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { CardProvider } from "./component/CardContext";
-<<<<<<< HEAD
 import Barra from "./component/Barra"
 import Navbar from "./component/Navbar";
-import NavbarRespo from "./component/NavbarRespo";
-=======
-import Barra from "./component/Barra";
-import Navbar from "./component/navbar";
->>>>>>> dev
+
 
 const inter = Inter({ subsets: ["latin"] });
 
