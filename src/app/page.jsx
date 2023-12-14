@@ -21,7 +21,7 @@ import Navbar from "./component/navbar";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      
       <Banner />
       <Whychoose />
       <Whomakes />
