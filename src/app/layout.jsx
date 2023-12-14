@@ -26,14 +26,9 @@ export default function RootLayout({ children }) {
 
           {/* <Navbar /> */}
 
-<<<<<<< HEAD
-  <NavbarRespo />  
+  <Navbar />  
       
           {children}</body>
-=======
-          {children}
-        </body>
->>>>>>> dev
       </html>
     </CardProvider>
   );
