@@ -1,32 +1,33 @@
+"use client";
+
 import React from "react";
 
-import Image from "next/image";
+import { useEffect } from "react";
 
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
-import imgcontacto from  "@/app/asset/img/contacto.jpg";
+import { useRouter } from "next/navigation";
 
-function PaginadeContacto  () {
+function PaginadeContacto() {
+  const router = useRouter();
 
-return (
+  useEffect(() => {
+    mostrarAlerta();
+  }, []);
 
-   //  <div className="flex justify-center items-center">
+  const mostrarAlerta = () => {
     Swal.fire({
-  title: "Recibimos tu solicitud!",
-  text: "Nos comunicaremos en breve!",
-  icon: "success"
-})
+      title: "Recibimos tu solicitud!",
+      text: "Nos comunicaremos en breve!",
+      icon: "success",
+    }).then((resultado) => {
+      if (resultado.isConfirmed) {
+        router.push("/");
+      }
+    });
+  };
 
-    
-)
-
+  return <div></div>;
 }
 
-export default PaginadeContacto
-
-
-// Swal.fire({
- //   title: "Good job!",
- //   text: "You clicked the button!",
- //   icon: "success"
- //  });   
+export default PaginadeContacto;

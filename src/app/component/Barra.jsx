@@ -1,10 +1,18 @@
+"use client"
 import React from "react";
-import EliminarBarra from "./EliminarBarra";
-import ocultarBarraSuperior from "./EliminarBarra";
 
-function Barra() {
+import { useState } from "react"
+
+function Barra() { 
+  const [isVisible, setVisible] = useState(true)
+    function hiddenBarra () {
+
+      setVisible(false)
+    }
   return (
-    <section style= {{display: ocultarBarraSuperior ? 'none' : 'null'}}>
+
+    isVisible && (
+    <section>
       <div className="w-full h-16 bg-green-300 flex justify-between items-center">
        <div></div>
         <p className="text-black pt-3 ">
@@ -18,8 +26,8 @@ function Barra() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6 mr-3"
-
+          className="w-6 h-6 mr-3 cursor-pointer"
+          onClick={hiddenBarra}
         >
           <path
             strokeLinecap="round"
@@ -29,10 +37,10 @@ function Barra() {
         </svg>
       </div>
 
-      <EliminarBarra />
-
+    
       
     </section>
+    )
   );
 }
 
