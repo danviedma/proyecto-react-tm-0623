@@ -79,7 +79,7 @@ const Navbar = () => {
               </a>
             </div>
 
-            <div className="mr-4">
+            {/* <div className="mr-4">
               <a href="#" className="text-white hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
 
             {/* <div className="mr-4">
               <a href="#" className="text-white hover:text-gray-400">
