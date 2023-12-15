@@ -10,7 +10,7 @@ import Link from "next/link";
 import { CardProvider, useCardContext } from "../component/CardContext";
 import Card from "../component/Card";
 import CartIcon from "../component/CartIcon";
-import Navbar from "../component/navbar";
+import Navbar from "../component/Navbar";
 
 export default function GaleryPage() {
   // const [cartItems, setCartItems] = useState([]);

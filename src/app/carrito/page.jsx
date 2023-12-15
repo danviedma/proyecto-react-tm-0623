@@ -1,7 +1,7 @@
 "use client";
 
 import ShoppingCart from "../component/ShoppingCart";
-import Navbar from "../component/navbar";
+import Navbar from "../component/Navbar";
 
 const OtraPagina = () => {
   // const cartItems = useCardContext();
