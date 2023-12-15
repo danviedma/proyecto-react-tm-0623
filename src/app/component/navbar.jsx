@@ -16,7 +16,7 @@ const Navbar = () => {
       <Link href="./carrito" className="font-bold text-yellow-700">
         <CartIcon />
       </Link>
-      <nav className="flex items-center justify-between w-full p-4 bg-red-800 lg:bg-blue-600">
+      <nav className="flex items-center justify-between w-full p-4 bg-gray-800 lg:bg-gray-800">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center">
             <img
