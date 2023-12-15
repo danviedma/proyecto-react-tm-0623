@@ -16,7 +16,7 @@ import Ourpartner from "./component/ourpartner";
 import Whomakes from "./component/whomakes";
 import Encabezado from "./component/Encabezado";
 import CartIcon from "./component/CartIcon";
-import Navbar from "./component/Navbar";
+import Navbar from "./component/navbar";
 
 export default function Home() {
   return (
