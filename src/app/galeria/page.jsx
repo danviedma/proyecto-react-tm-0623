@@ -21,7 +21,7 @@ export default function GaleryPage() {
   const { cartItems, addToCart } = useCardContext();
   return (
     <div className="w-[100%] mx-auto">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="w-[80%] mx-auto">
         <CardProvider>
           <Card list={galeryList} addToCart={addToCart} />
