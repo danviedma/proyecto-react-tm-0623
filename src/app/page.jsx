@@ -16,12 +16,12 @@ import Ourpartner from "./component/ourpartner";
 import Whomakes from "./component/whomakes";
 import Encabezado from "./component/Encabezado";
 import CartIcon from "./component/CartIcon";
-import Navbar from "./component/navbar";
+import Navbar from "./component/Navbar";
 
 export default function Home() {
   return (
     <div>
-      
+      <Navbar />
       <Banner />
       <Whychoose />
       <Whomakes />

@@ -10,7 +10,7 @@ import Link from "next/link";
 import { CardProvider, useCardContext } from "../component/CardContext";
 import Card from "../component/Card";
 import CartIcon from "../component/CartIcon";
-import Navbar from "../component/navbar";
+import Navbar from "../component/Navbar";
 
 export default function GaleryPage() {
   // const [cartItems, setCartItems] = useState([]);
@@ -21,7 +21,7 @@ export default function GaleryPage() {
   const { cartItems, addToCart } = useCardContext();
   return (
     <div className="w-[100%] mx-auto">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="w-[80%] mx-auto">
         <CardProvider>
           <Card list={galeryList} addToCart={addToCart} />
