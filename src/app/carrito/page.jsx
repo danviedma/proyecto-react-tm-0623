@@ -8,7 +8,7 @@ const OtraPagina = () => {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <CardProvider>
         <div>
           <h2>Carrito</h2>
