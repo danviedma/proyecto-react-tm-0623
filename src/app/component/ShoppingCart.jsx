@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useCardContext } from "./CardContext";
 import CartTable from "./CartTable";
 import Footer from "./footer";
@@ -13,12 +14,16 @@ const ShoppingCart = () => {
   };
 
   const handleConfirmPurchase = () => {
+    clearCart();
     Swal.fire({
       position: "center",
       icon: "success",
       title: "Gracias por tu compra",
       showConfirmButton: false,
       timer: 1500,
+    }).then(() => {
+      // Redirige a la página de inicio después de la alerta
+      window.location.href = "/";
     });
   };
 
