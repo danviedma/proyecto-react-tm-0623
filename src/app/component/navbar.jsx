@@ -32,7 +32,8 @@ const Navbar = () => {
                 <li className="ml-4">
                   <Link
                     href="/"
-                    className="text-2xl text-white hover:text-gray-400 border-b-1"
+                    className=" text-white bg-yellow-500 font-bold hover:bg-orange-700 border-b-1 text-2xl rounded-md w-[17rem] no-underline"
+                     
                   >
                     Inicio{" "}
                   </Link>
@@ -41,7 +42,7 @@ const Navbar = () => {
                 <li className="ml-4">
                   <Link
                     href="/galeria"
-                    className="text-2xl text-white hover:text-gray-400 border-b-1"
+                    className=" text-white bg-yellow-500 font-bold hover:bg-orange-700 border-b-1 text-2xl rounded-md w-[17rem] no-underline"
                   >
                     Galería{" "}
                   </Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
                 <li className="ml-4">
                   <Link
                     href="/Contacto"
-                    className="text-2xl text-white hover:text-gray-400 border-b-1"
+                    className=" text-white bg-yellow-500 font-bold transition duration-400 ease-in-out  hover:bg-orange-700   border-b-1 text-2xl rounded-md w-[17rem] no-underline"
                   >
                     Contacto{" "}
                   </Link>

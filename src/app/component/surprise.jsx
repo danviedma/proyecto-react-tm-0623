@@ -7,11 +7,11 @@ import CartIcon from "./CartIcon";
 
 function Surprise() {
   return (
-    <div className="w-[100%] m-auto lg:flex lg:w-[85vw]">
+    <div className="w-[100%] m-auto lg:flex lg:w-[85vw] ">
       <Image src={libro} width={600} className="lg:w-[40vw] "></Image>
       <div className="w-[100%] mt-10 pl-6 lg:w-[50vw]">
-        <h3 className="text-yellow-500">Sorprender a alguien</h3>
-        <h3>Regala un libro</h3>
+        <h3 className="text-yellow-500 flex justify-center">Sorprender a alguien</h3>
+        <h3 className="flex justify-center">Regala un libro</h3>
         <p className="mt-5">
           Recibir un regalo siempre es placentero; recibir un libro es una
           experiencia que no se olvidará fácilmente. Regala nuestros libros,

@@ -3,10 +3,13 @@ import React from "react";
 function Whomakes() {
   return (
     <div className="w-full m-auto lg:flex lg:w-85vw">
-      <div className="w-full mt-10 pl-6 lg:w-1/2 lg:flex lg:flex-col">
-        <h3>
+      <div className="w-full mt-10 pl-6 lg:w-1/2 lg:flex lg:flex-col ">
+        <h3 >
           Comprando también estás
-          <span className="text-yellow-500"> AYUDANDO </span>
+          <span className="text-yellow-500 flex justify-center">
+            {" "}
+            AYUDANDO{" "}
+          </span>
         </h3>
 
         <p className="mt-2 lg:w-70">
