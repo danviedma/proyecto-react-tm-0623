@@ -11,11 +11,11 @@ import { useState } from "react";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
+
   return (
     <>
-      <Link href="./carrito" className="font-bold text-yellow-700">
-        <CartIcon />
-      </Link>
+       
+     
       <nav className="flex items-center justify-between w-full p-4 bg-gray-800 lg:bg-gray-800">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center">
@@ -32,9 +32,9 @@ const Navbar = () => {
                 <li className="ml-4">
                   <Link
                     href="/"
-                    className="text-2xl text-white hover:text-gray-400 border-b-1"
+                    className="text-2xl text-white"
                   >
-                    Inicio{" "}
+                   <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[6rem]">Inicio{" "}</button>
                   </Link>
                 </li>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                     href="/galeria"
                     className="text-2xl text-white hover:text-gray-400 border-b-1"
                   >
-                    Galería{" "}
+                    <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[7rem]">Galería{" "}</button>
                   </Link>
                 </li>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
                     href="/Contacto"
                     className="text-2xl text-white hover:text-gray-400 border-b-1"
                   >
-                    Contacto{" "}
+                     <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[8rem]">Contacto{" "}</button>
                   </Link>
                 </li>
               </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
           {/* </div> */}
           <div className="flex items-center">
-            <div className="mr-4">
+            {/* <div className="mr-4">
               <a href="#" className="text-white hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -77,9 +77,9 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
 
-            <div className="mr-4">
+            <div className="hidden md:flex">
               <a href="#" className="text-white hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -97,6 +97,11 @@ const Navbar = () => {
                 </svg>
               </a>
             </div>
+            <div className="hidden md:flex">
+            <Link href="./carrito" className="font-bold text-yellow-700">
+        <CartIcon />
+      </Link>
+      </div>
 
             {/* <div className="mr-4">
               <a href="#" className="text-white hover:text-gray-400">
@@ -126,8 +131,8 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 mr-3 bg-white cursor-pointer"
-                onClick={() => hiddenBarra}
+                className="w-8 h-8 mr-3 bg-white cursor-pointer"
+                
               >
                 <path
                   strokeLinecap="round"
@@ -142,7 +147,7 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 bg-white md:flex"
+                className="w-8 h-8 bg-white md:flex"
               >
                 <path
                   strokeLinecap="round"
@@ -156,14 +161,14 @@ const Navbar = () => {
       </nav>
 
       {toggle && (
-        <ul className="p-0 sidebar">
-          <div className="flex flex-col items-center w-full p-4 text-white bg-blue-800 rounded-md bg:">
+        <ul className="p-0 sidebar ">
+          <div className="flex flex-col items-center w-full p-4 text-white bg-blue-800 rounded-md space-y-2">
             <li>
               <Link
                 href="/"
                 className="text-2xl text-white hover:text-gray-400 border-b-1"
               >
-                Inicio{" "}
+                <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[13rem]">Inicio{" "}</button>
               </Link>
             </li>
 
@@ -172,7 +177,7 @@ const Navbar = () => {
                 href="/galeria"
                 className="text-2xl text-white hover:text-gray-400 border-b-1"
               >
-                Galería{" "}
+               <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[13rem]"> Galería{" "}</button>
               </Link>
             </li>
 
@@ -181,7 +186,32 @@ const Navbar = () => {
                 href="/Contacto"
                 className="text-2xl text-white hover:text-gray-400 border-b-1"
               >
-                Contacto{" "}
+                <button className="bg-blue-500 hover:bg-orange-700 rounded-md w-[13rem]">Contacto{" "}</button>
+              </Link>
+            </li>
+
+            <li className="flex ">
+             
+              <div className="mr-4 mt-2">
+                <a href="#" className="text-white hover:text-gray-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-8 h-8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <Link href="./carrito" className="font-bold text-yellow-700 mt-1">
+                <CartIcon />
               </Link>
             </li>
           </div>
