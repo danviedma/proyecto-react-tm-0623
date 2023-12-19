@@ -10,8 +10,8 @@ const CartIcon = () => {
   const totalItems = getTotalQuantity();
 
   return (
-    <div className="relative">
-      <span className="absolute text-white top-20 right-20">
+    <div className="relative text-white">
+      <span className=" text-white">
         <FaShoppingCart size={40} />
       </span>
       {totalItems > 0 && (

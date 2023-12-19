@@ -17,7 +17,7 @@ function Barra() {
       <div className="flex items-center justify-between w-full h-16 bg-green-300">
         <div></div>
         <p className="pt-3 text-black ">
-          Entrega gratuita a partir de $10.000. Recibes un regalo con una compra
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entrega gratuita a partir de $10.000. Recibes un regalo con una compra
           superior a $15.000.-
         </p>
 
