@@ -79,7 +79,7 @@ const Navbar = () => {
               </a>
             </div> */}
 
-            <div className="hidden md:flex">
+            <div className="hidden md:flex mb-2">
               <a href="#" className="text-white hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-8 h-8"
+                  className="w-10 h-10"
                 >
                   <path
                     strokeLinecap="round"
@@ -190,9 +190,9 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="flex ">
+            <li className="flex items-center ">
              
-              <div className="mr-4 mt-2">
+              <div className="mr-4 mb-2">
                 <a href="#" className="text-white hover:text-gray-400">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +200,7 @@ const Navbar = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-8 h-8"
+                    className="w-10 h-10"
                   >
                     <path
                       strokeLinecap="round"
